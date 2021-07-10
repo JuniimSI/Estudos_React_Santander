@@ -6,7 +6,7 @@ import App3 from './components/App3';
 import App4 from './components/App4';
 import App5 from './components/App5';
 import Lista from './components/Lista';
-import Lista2 from './components/Lista2';
+import {Lista2, Item} from './components/Lista2';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -17,7 +17,15 @@ ReactDOM.render(
     <App4 />
     <App5 />
     <Lista/>*/}
-    <Lista2 />
+    <Lista2>
+      Teste 01
+      <Item key={5} id={55} completo={false}>
+        Teste1
+      </Item>
+      <Item key={6} id={66} completo={true}>
+        Teste2
+      </Item>
+    </Lista2>
   </React.StrictMode>,
   document.getElementById('root')
 );
