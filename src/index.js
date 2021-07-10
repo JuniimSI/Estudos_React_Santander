@@ -4,14 +4,16 @@ import App from './components/App';
 import App2 from './components/App2';
 import App3 from './components/App3';
 import App4 from './components/App4';
+import App5 from './components/App5';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <App />
-    <App2 title="Título 1" text="Texto 1"> Conteúdo 1</App2> */}
+    <App2 title="Título 1" text="Texto 1"> Conteúdo 1</App2> 
     <br></br>
-    <App4 />
+    <App4 />*/}
+    <App5 />
   </React.StrictMode>,
   document.getElementById('root')
 );
