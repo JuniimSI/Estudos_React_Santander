@@ -7,6 +7,7 @@ import App4 from './components/App4';
 import App5 from './components/App5';
 import Lista from './components/Lista';
 import {Lista2, Item} from './components/Lista2';
+import Formulario from './components/Formulario';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -16,7 +17,7 @@ ReactDOM.render(
     <br></br>
     <App4 />
     <App5 />
-    <Lista/>*/}
+    <Lista/>
     <Lista2>
       Teste 01
       <Item key={5} id={55} completo={false}>
@@ -25,7 +26,8 @@ ReactDOM.render(
       <Item key={6} id={66} completo={true}>
         Teste2
       </Item>
-    </Lista2>
+    </Lista2>*/}
+    <Formulario/>
   </React.StrictMode>,
   document.getElementById('root')
 );
