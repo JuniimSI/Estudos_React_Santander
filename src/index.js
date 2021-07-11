@@ -8,6 +8,8 @@ import App5 from './components/App5';
 import Lista from './components/Lista';
 import {Lista2, Item} from './components/Lista2';
 import Formulario from './components/Formulario';
+import Hello from './components/Hello';
+
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -26,8 +28,11 @@ ReactDOM.render(
       <Item key={6} id={66} completo={true}>
         Teste2
       </Item>
-    </Lista2>*/}
-    <Formulario/>
+    </Lista2>
+    <Formulario/>*/}
+    <Hello text="olá">
+      <h1>Hello World</h1>
+    </Hello>
   </React.StrictMode>,
   document.getElementById('root')
 );
