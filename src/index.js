@@ -5,6 +5,7 @@ import App2 from './components/App2';
 import App3 from './components/App3';
 import App4 from './components/App4';
 import App5 from './components/App5';
+import App6 from './components/App6';
 import Lista from './components/Lista';
 import {Lista2, Item} from './components/Lista2';
 import Formulario from './components/Formulario';
@@ -29,10 +30,12 @@ ReactDOM.render(
         Teste2
       </Item>
     </Lista2>
-    <Formulario/>*/}
+    <Formulario/>
     <Hello text="olá">
       <h1>Hello World</h1>
-    </Hello>
+    </Hello>*/}
+    <App6 />
+
   </React.StrictMode>,
   document.getElementById('root')
 );
